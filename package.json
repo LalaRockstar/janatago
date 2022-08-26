@@ -1,0 +1,25 @@
+{
+  "name": "janatago",
+  "version": "1.0.0",
+  "description": "api for janatago website",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Ratneswar Deka Rabha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

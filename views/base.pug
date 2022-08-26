@@ -1,0 +1,27 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+
+        title JanataGo
+        meta(name="description" content="")
+
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css")
+        
+    body 
+        .container 
+            include _sidebar
+            .section 
+                include _header
+                .main 
+                    block content
+            
+        script(async src="https://unpkg.com/axios/dist/axios.min.js") 
+            
+        script(src="/js/index.js"  async defer)      
+     
+
+
+
